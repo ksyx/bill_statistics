@@ -1,0 +1,6 @@
+#use_cache "E:/opencv-4.0.1-mingw/src/.cache"
+#do_unpack "v0.1.1d.zip" "37479d90e3a5d47f132f512b22cbe206" "https://github.com/opencv/ade/archive/v0.1.1d.zip" "E:/opencv-4.0.1-mingw/build/3rdparty/ade"
+#check_md5 "E:/opencv-4.0.1-mingw/src/.cache/ade/37479d90e3a5d47f132f512b22cbe206-v0.1.1d.zip"
+#remove_unpack "E:/opencv-4.0.1-mingw/build/3rdparty/ade"
+#mkdir "E:/opencv-4.0.1-mingw/build/3rdparty/ade"
+#unpack "E:/opencv-4.0.1-mingw/build/3rdparty/ade" "E:/opencv-4.0.1-mingw/src/.cache/ade/37479d90e3a5d47f132f512b22cbe206-v0.1.1d.zip"

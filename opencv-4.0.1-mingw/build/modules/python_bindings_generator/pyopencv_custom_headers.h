@@ -1,0 +1,10 @@
+//user-defined headers
+#include "E:/opencv-4.0.1-mingw/src/modules/core/misc/python/pyopencv_cuda.hpp"
+#include "E:/opencv-4.0.1-mingw/src/modules/core/misc/python/pyopencv_umat.hpp"
+#include "E:/opencv-4.0.1-mingw/src/modules/flann/misc/python/pyopencv_flann.hpp"
+#include "E:/opencv-4.0.1-mingw/src/modules/ml/misc/python/pyopencv_ml.hpp"
+#include "E:/opencv-4.0.1-mingw/src/modules/dnn/misc/python/pyopencv_dnn.hpp"
+#include "E:/opencv-4.0.1-mingw/src/modules/videoio/misc/python/pyopencv_videoio.hpp"
+#include "E:/opencv-4.0.1-mingw/src/modules/features2d/misc/python/pyopencv_features2d.hpp"
+#include "E:/opencv-4.0.1-mingw/src/modules/objdetect/misc/python/pyopencv_objdetect.hpp"
+#include "E:/opencv-4.0.1-mingw/src/modules/stitching/misc/python/pyopencv_stitching.hpp"

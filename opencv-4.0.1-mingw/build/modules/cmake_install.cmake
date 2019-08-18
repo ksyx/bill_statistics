@@ -1,0 +1,81 @@
+# Install script for directory: E:/opencv-4.0.1-mingw/src/modules
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "E:/opencv-4.0.1-mingw/build/install")
+endif()
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+
+# Set the install configuration name.
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(BUILD_TYPE)
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+           CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
+  else()
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+  endif()
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+endif()
+
+# Set the component getting installed.
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  else()
+    set(CMAKE_INSTALL_COMPONENT)
+  endif()
+endif()
+
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlicensesx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/licenses" TYPE FILE OPTIONAL RENAME "ade-LICENSE" FILES "E:/opencv-4.0.1-mingw/build/3rdparty/ade/ade-0.1.1d/LICENSE")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/calib3d/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/core/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/dnn/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/features2d/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/flann/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/gapi/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/highgui/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/imgcodecs/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/imgproc/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/java/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/js/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/ml/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/objdetect/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/photo/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/python/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/stitching/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/ts/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/video/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/videoio/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/.firstpass/world/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/core/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/flann/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/imgproc/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/java_bindings_generator/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/ml/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/photo/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/dnn/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/gapi/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/imgcodecs/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/videoio/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/highgui/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/ts/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/features2d/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/calib3d/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/objdetect/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/stitching/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/video/cmake_install.cmake")
+  include("E:/opencv-4.0.1-mingw/build/modules/python_bindings_generator/cmake_install.cmake")
+
+endif()
+
