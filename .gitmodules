@@ -1,3 +1,6 @@
 [submodule "bill_statistics_base"]
 	path = bill_statistics_base
 	url = https://github.com/ksyx/bill_statistics_base.git
+[submodule "VS/Bill Statistics"]
+	path = VS/Bill Statistics
+	url = https://github.com/ksyx/bill_statistics_base.git
